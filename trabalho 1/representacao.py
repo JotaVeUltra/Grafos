@@ -14,7 +14,7 @@ def lst_arestas(entrada, vertices, valorado):
                 break
 
         existe_v = False
-        for v0 in e[:-1]:
+        for v0 in e[:2]:
             for v1 in vertices:
                 if v0 == v1:
                     existe_v = True
